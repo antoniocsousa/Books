@@ -1,18 +1,7 @@
-
-.App {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(180deg, #FE8330, #FFA832);
-}
-
 .App-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     background-color: #FFFFFF;
-}
-
-li {
-    list-style: none;
 }
