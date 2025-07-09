@@ -1,15 +1,24 @@
-import './style.css'
+import styled from 'styled-components'
 
 const listItems = ['CATEGORIAS', 'FAVORITOS', 'ESTANTE']
+
+const OptionsContainer = styled.ul`
+    display: flex;
+    gap: 30px;
+`
+
+const Option = styled.li`
+    cursor: pointer;
+`
 
 export default function OptionsHeader() {
     return (
         <>
-            <ul className='Options'>
+            <OptionsContainer>
                 {listItems.map(item => (
-                    <li className='Option'><p>{item}</p></li>
+                    <Option><p>{item}</p></Option>
                 ))}
-            </ul>
+            </OptionsContainer>
         </>
     )
 }

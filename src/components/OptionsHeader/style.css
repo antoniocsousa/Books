@@ -1,8 +1,0 @@
-.Options {
-    display: flex;
-    gap: 30px;
-}
-
-.Option {
-    cursor: pointer;
-}
