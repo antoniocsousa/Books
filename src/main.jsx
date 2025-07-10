@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
 
     color-scheme: light dark;
-    background-color: #242424;
     color: #1a1a1a;
 
     font-synthesis: none;
@@ -34,6 +33,8 @@ const GlobalStyle = createGlobalStyle`
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #FE8330, #FFA832);
   }
 
   li {
